@@ -1,7 +1,0 @@
-1. Link for LeetCode certificate: https://drive.google.com/file/d/1Nv_6dsOLp9GV6YUZs9FUHlnaww5ia6nn/view
-2. I've added resume.pdf in public folder ok.
-3. Remove Github link in all projects, that's not required, only hosted or deployed link is enough, whenever anyone opens them, make them open in a new tab - blank
-4. In Purchase Assistant - there's no image, its just an .exe file I guess. So, no image is available. I'd designed it for windwos computer, its there running in their computers ok. I don't have any access of it for now.
-5. There're so many skills, so remove some of them. Remove git, html, css, product Thinking, gsap and all ok.
-6. Leetcode link: https://leetcode.com/u/sankalpmtellur/ 
-7. Some changes in footer: The font size is very small in footer, nothing is visible good ok. So, make them properly good with standard font size. 

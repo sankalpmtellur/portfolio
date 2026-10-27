@@ -3,17 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#f7f5ef" />
-    <meta name="color-scheme" content="light" />
+    <meta name="theme-color" content="#0c0c0d" />
+    <meta name="color-scheme" content="dark light" />
+    <script>
+      (function () {
+        var theme
+        try { theme = localStorage.getItem('theme') } catch (e) {}
+        if (theme !== 'light' && theme !== 'dark') theme = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark'
+        document.documentElement.dataset.theme = theme
+        document.querySelector('meta[name="theme-color"]').setAttribute('content', theme === 'dark' ? '#0c0c0d' : '#f4f2ec')
+      })()
+    </script>
     <meta name="author" content="Sankalp M Tellur" />
     <meta name="robots" content="index, follow, max-image-preview:large" />
     <meta name="keywords" content="Sankalp M Tellur, software developer, full-stack developer, AI projects, React, TypeScript, portfolio" />
     <meta name="description" content="Portfolio of Sankalp M Tellur, a software developer focused on full-stack development, frontend systems, and AI-based projects." />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300..700&family=Geist+Mono:wght@400..500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
     <link rel="canonical" href="https://sankalpmtellur.online/" />
-    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='28' fill='%23ff633d'/%3E%3Cpath d='M26 30h48M26 50h35M26 70h48' stroke='white' stroke-width='9' stroke-linecap='round'/%3E%3C/svg%3E" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Sankalp M Tellur — Portfolio" />
     <meta property="og:locale" content="en_IN" />
@@ -50,9 +59,10 @@
             },
             "sameAs": [
               "https://www.linkedin.com/in/sankalpmt/",
-              "https://github.com/sankalpmtellur"
+              "https://github.com/sankalpmtellur",
+              "https://leetcode.com/u/sankalpmtellur/"
             ],
-            "knowsAbout": ["React", "Next.js", "TypeScript", "JavaScript", "Python", "Node.js", "Figma", "Tailwind CSS", "Express.js", "Supabase", "MongoDB", "MySQL", "Pandas", "Artificial intelligence", "Entrepreneurship"]
+            "knowsAbout": ["React", "Next.js", "TypeScript", "JavaScript", "Python", "Node.js", "Express.js", "Supabase", "MongoDB", "MySQL", "Pandas", "Figma", "Tailwind CSS", "Artificial intelligence"]
           },
           {
             "@type": "WebSite",
