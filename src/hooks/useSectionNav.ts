@@ -1,6 +1,5 @@
 import { useCallback } from 'react'
 import { useLocation, useNavigate } from 'react-router'
-import { scrollToTarget } from '../lib/motion'
 
 /** Scrolls to a home-page section, navigating home first when on another page. */
 export function useSectionNav() {
@@ -9,8 +8,13 @@ export function useSectionNav() {
 
   return useCallback(
     (id: string) => {
-      if (pathname === '/') scrollToTarget(id)
-      else navigate('/', { state: { scrollTo: id } })
+      if (pathname !== '/') {
+        navigate(`/#${id}`)
+        return
+      }
+      const target = id === 'top' ? document.body : document.getElementById(id)
+      target?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+      window.history.replaceState(null, '', id === 'top' ? '/' : `/#${id}`)
     },
     [navigate, pathname],
   )

@@ -7,15 +7,12 @@ export function ThemeToggle() {
   return (
     <button
       type="button"
-      className="icon-button theme-toggle"
-      onClick={(event) => toggle({ x: event.clientX, y: event.clientY })}
+      className="icon-button"
+      onClick={toggle}
       aria-label={isDark ? 'Switch to light mode' : 'Switch to dark mode'}
       title={isDark ? 'Light mode' : 'Dark mode'}
     >
-      <span className={`theme-icon ${isDark ? 'is-dark' : 'is-light'}`}>
-        <FiSun aria-hidden="true" />
-        <FiMoon aria-hidden="true" />
-      </span>
+      {isDark ? <FiSun aria-hidden="true" /> : <FiMoon aria-hidden="true" />}
     </button>
   )
 }

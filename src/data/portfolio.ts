@@ -26,10 +26,10 @@ export const socials = [
 ]
 
 export const navItems = [
+  { label: 'Work', target: 'work' },
   { label: 'About', target: 'about' },
   { label: 'Experience', target: 'experience' },
-  { label: 'Work', target: 'work' },
-  { label: 'Skills', target: 'skills' },
+  { label: 'Toolkit', target: 'toolkit' },
   { label: 'Contact', target: 'contact' },
 ]
 

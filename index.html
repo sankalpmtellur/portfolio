@@ -3,15 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#0c0c0d" />
-    <meta name="color-scheme" content="dark light" />
+    <meta name="theme-color" content="#f2f0e9" />
+    <meta name="color-scheme" content="light dark" />
     <script>
       (function () {
         var theme
         try { theme = localStorage.getItem('theme') } catch (e) {}
-        if (theme !== 'light' && theme !== 'dark') theme = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark'
+        if (theme !== 'light' && theme !== 'dark') theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
         document.documentElement.dataset.theme = theme
-        document.querySelector('meta[name="theme-color"]').setAttribute('content', theme === 'dark' ? '#0c0c0d' : '#f4f2ec')
+        document.querySelector('meta[name="theme-color"]').setAttribute('content', theme === 'dark' ? '#0f1012' : '#f2f0e9')
       })()
     </script>
     <meta name="author" content="Sankalp M Tellur" />
@@ -20,7 +20,7 @@
     <meta name="description" content="Portfolio of Sankalp M Tellur, a software developer focused on full-stack development, frontend systems, and AI-based projects." />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300..700&family=Geist+Mono:wght@400..500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..700&family=Hanken+Grotesk:wght@400..700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
     <link rel="canonical" href="https://sankalpmtellur.online/" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <meta property="og:type" content="website" />

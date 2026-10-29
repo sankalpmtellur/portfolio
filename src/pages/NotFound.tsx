@@ -9,13 +9,10 @@ export function NotFound() {
 
   return (
     <section className="not-found container">
-      <p className="mono-label">Error 404</p>
-      <h1 className="not-found-title">
-        <span className="line"><span>Lost in</span></span>
-        <span className="line"><span><em>the build.</em></span></span>
-      </h1>
+      <p className="eyebrow"><span>404</span>Not found</p>
+      <h1>Lost in the build.</h1>
       <p>This page doesn’t exist — or it hasn’t shipped yet.</p>
-      <Link to="/" className="btn btn-primary"><FiArrowLeft aria-hidden="true" /> Back home</Link>
+      <Link to="/" className="btn btn-accent"><FiArrowLeft aria-hidden="true" /> Back home</Link>
     </section>
   )
 }

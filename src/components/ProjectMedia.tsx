@@ -5,42 +5,40 @@ function PurchaseAssistantArt() {
   const rows = [
     { id: 'PO-2041', item: 'Order details captured', state: 'verified' },
     { id: 'PO-2042', item: 'Line items extracted', state: 'verified' },
-    { id: 'PO-2043', item: 'Awaiting review', state: 'pending' },
+    { id: 'PO-2043', item: 'Awaiting human review', state: 'review' },
     { id: 'PO-2044', item: 'Queued for processing', state: 'queued' },
   ]
+  const stateLabel: Record<string, string> = { verified: '✓ Verified', review: 'Review', queued: 'Queued' }
+
   return (
-    <div className="pa-art" role="img" aria-label="Illustration of the Purchase Assistant Windows app: orders are captured, then held for human verification before the database updates.">
-      <div className="pa-glow" />
+    <div
+      className="pa-art"
+      role="img"
+      aria-label="Illustration of the Purchase Assistant Windows app: orders are captured, then held for human verification before the database updates."
+    >
       <div className="pa-window">
         <div className="pa-titlebar">
-          <span className="pa-app-icon">PA</span>
-          <span>Purchase Assistant</span>
+          <span className="pa-icon">PA</span>
+          Purchase Assistant
           <span className="pa-controls"><i /><i /><i /></span>
         </div>
-        <div className="pa-body">
-          <div className="pa-agent">
-            <span className="pa-pulse" />
-            <div>
-              <b>Agent is processing orders</b>
-              <small>Changes wait for human verification</small>
-            </div>
-          </div>
-          <ul className="pa-rows">
-            {rows.map((row) => (
-              <li key={row.id} className={`pa-row is-${row.state}`}>
-                <span className="pa-id">{row.id}</span>
-                <span className="pa-item">{row.item}</span>
-                <span className="pa-state">{row.state === 'verified' ? '✓ Verified' : row.state === 'pending' ? 'Review' : 'Queued'}</span>
-              </li>
-            ))}
-          </ul>
-          <div className="pa-footer">
-            <span>Database sync</span>
-            <span className="pa-bar"><i /></span>
+        <div className="pa-agent">
+          <span className="pa-pulse" />
+          <div>
+            <b>Agent is processing orders</b>
+            <small>Every change waits for a human</small>
           </div>
         </div>
+        <ul className="pa-rows">
+          {rows.map((row) => (
+            <li key={row.id} className={`is-${row.state}`}>
+              <span className="pa-id">{row.id}</span>
+              <span className="pa-item">{row.item}</span>
+              <span className="pa-state">{stateLabel[row.state]}</span>
+            </li>
+          ))}
+        </ul>
       </div>
-      <span className="pa-caption">Illustration · Windows desktop app</span>
     </div>
   )
 }
