@@ -7,7 +7,7 @@
 <p><em>Turning bold ideas into software people love to use.</em></p>
 
 <p>
-  <a href="https://sankalpmtellur.online/"><strong>Visit the portfolio &rarr; sankalpmtellur.online</strong></a>
+  <a href="https://sankalpmtellur.online/"><strong>sankalpmtellur.online</strong></a>
 </p>
 
 </div>
