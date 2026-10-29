@@ -11,7 +11,6 @@ function App() {
   const { pathname, hash } = useLocation()
   useReveal(pathname)
 
-  // New page without a section target: start at the top.
   useEffect(() => {
     if (!hash) window.scrollTo({ top: 0, behavior: 'instant' })
   }, [pathname, hash])

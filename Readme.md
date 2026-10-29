@@ -59,7 +59,3 @@ Outside of projects, I keep my problem-solving sharp on LeetCode, where I’ve s
 </p>
 
 <br />
-
-<div align="center">
-  <sub>Thanks for stopping by.</sub>
-</div>
