@@ -1,34 +1,65 @@
 <div align="center">
 
-<img src="public/assets/sankalp-520.webp" alt="Sankalp M Tellur" width="220" />
+<img src="public/assets/sankalp-520.webp" alt="Portrait of Sankalp M Tellur" width="240" />
 
-# Hi, I’m Sankalp 👋
+<h1>Sankalp M Tellur</h1>
 
-**Software Developer · Full-stack · Frontend · AI**
+<p><em>Turning bold ideas into software people love to use.</em></p>
 
-### 🌐 [sankalpmtellur.online](https://sankalpmtellur.online/)
+<p>
+  <a href="https://sankalpmtellur.online/"><strong>Visit the portfolio &rarr; sankalpmtellur.online</strong></a>
+</p>
 
 </div>
 
----
+<br />
 
 ## About me
 
-I build software that takes real work off people’s plates — from AI assistants that help teams process orders, to websites that help growing businesses get online, to interfaces that make a product feel alive.
+I build software that takes real work off people’s plates. Sometimes that’s an assistant that helps a team handle orders without the busywork, sometimes it’s a website that helps a small business find its first customers online, and sometimes it’s simply an interface that makes a product feel alive.
 
-I’m a third-year Computer Science & AI student at **Rishihood University**, and I previously interned as a Software Engineer at **AgroEdge**, where I helped bring their platform to people in more than 20 languages.
+I’m a third-year Computer Science & AI student at **Rishihood University**. Before that, I spent a summer as a Software Engineer Intern at **AgroEdge**, where I helped bring their platform to farmers and mentors in more than twenty languages.
 
-When I’m not building, I’m solving problems on LeetCode — 150+ and counting, with a 100-day streak badge to show for it.
+Outside of projects, I keep my problem-solving sharp on LeetCode, where I’ve solved **220+ problems** and earned the 100 Days badge for showing up every single day.
 
-I care about the whole picture: the people using it, the work it saves, and the last pixel.
+<br />
 
-## Say hello
+<table>
+  <tr>
+    <td><strong>Studying</strong></td>
+    <td>Computer Science &amp; AI, Rishihood University</td>
+  </tr>
+  <tr>
+    <td><strong>Previously</strong></td>
+    <td>Software Engineer Intern, AgroEdge</td>
+  </tr>
+  <tr>
+    <td><strong>Building</strong></td>
+    <td>Tools for real businesses, websites for startups</td>
+  </tr>
+  <tr>
+    <td><strong>Currently</strong></td>
+    <td>Open to new opportunities</td>
+  </tr>
+</table>
 
-📧 [sankalp.tellur2024@nst.rishihood.edu.in](mailto:sankalp.tellur2024@nst.rishihood.edu.in)
-💼 [LinkedIn](https://www.linkedin.com/in/sankalpmt/) · 🐙 [GitHub](https://github.com/sankalpmtellur) · 🧩 [LeetCode](https://leetcode.com/u/sankalpmtellur/)
+<br />
+
+> I care about the whole picture: the people using it, the work it saves, and the last pixel.
+
+<br />
+
+## Let’s connect
+
+<p>
+  <a href="https://sankalpmtellur.online/">Portfolio</a> &nbsp;&middot;&nbsp;
+  <a href="https://www.linkedin.com/in/sankalpmt/">LinkedIn</a> &nbsp;&middot;&nbsp;
+  <a href="https://github.com/sankalpmtellur">GitHub</a> &nbsp;&middot;&nbsp;
+  <a href="https://leetcode.com/u/sankalpmtellur/">LeetCode</a>
+</p>
+
+<br />
 
 <div align="center">
-
-*Thanks for stopping by ✨*
-
+  <sub>Thanks for stopping by.</sub>
 </div>

@@ -30,7 +30,7 @@ export function Toolkit() {
             <span className="award-icon"><FiAward aria-hidden="true" /></span>
             <p className="eyebrow">Problem solving</p>
           </div>
-          <p className="award-num">150+</p>
+          <p className="award-num">220+</p>
           <h3>LeetCode problems solved</h3>
           <p>Earned the <strong>100 Days Badge</strong> for showing up every day — consistent coding, one problem at a time.</p>
           <div className="award-links">

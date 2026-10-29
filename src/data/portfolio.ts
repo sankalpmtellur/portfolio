@@ -175,7 +175,7 @@ export const experience = [
 
 export const stats = [
   { value: 20, suffix: '+', label: 'Languages shipped in one i18n rollout' },
-  { value: 150, suffix: '+', label: 'LeetCode problems solved' },
+  { value: 220, suffix: '+', label: 'LeetCode problems solved' },
   { value: 5, suffix: '', label: 'Products designed & built' },
   { value: 3, suffix: '', label: 'Months shipping at AgroEdge' },
 ]

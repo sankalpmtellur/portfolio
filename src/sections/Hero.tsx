@@ -17,7 +17,7 @@ export function Hero() {
             <span className="live-dot" /> Open to opportunities
           </p>
           <h1 className="hero-title load" style={{ '--i': 1 } as CSSProperties}>
-            Software that does <mark>real work</mark>, built with intent.
+            Turning ideas into software people <mark>love</mark> to use.
           </h1>
           <div className="hero-foot load" style={{ '--i': 2 } as CSSProperties}>
             <p className="hero-lede">
